@@ -1,0 +1,111 @@
+{
+  "testTime": 600,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Какие конструкции используются для создания функции в JavaScript?",
+      "answers": ["function", "var", "let", "const"],
+      "correctAnswers": [0, 3]
+    },
+    {
+      "id": 2,
+      "question": "Какие способы объявления стрелочной функции в JavaScript существуют?",
+      "answers": [
+        "(parameter) => { function body }",
+        "(parameter) => function body (parameter) => function body(parameter) => function body(parameter) => function body(parameter) => function body(parameter) => function body(parameter) => function body(parameter) => function body(parameter) => function body(parameter) => function body(parameter) => function body(parameter) => function body(parameter) => function body",
+        "(parameter) => { }",
+        "(parameter) => {} function body"
+      ],
+      "correctAnswers": [2, 3]
+    },
+    {
+      "id": 3,
+      "question": "Что из перечисленного является JSX?",
+      "answers": [
+        " JavaScript XML", 
+        "JavaScript Extension",
+        "JavaScript Syntax",
+        "JavaScript Expression"
+      ],
+      "correctAnswers": [0, 1]
+    },
+    {
+      "id": 4,
+      "question": "Какие типы компонентов являются базовыми в React?",
+      "answers": ["Element", "Component", "App", "State"],
+      "correctAnswers": [1, 2]
+    },
+    {
+      "id": 5,
+      "question": "Какие способы вернуть значение из функции JavaScript?",
+      "answers": [
+        "using return keyword",
+        "using break statement",
+        "using continue statement",
+        "using throw statement"
+      ],
+      "correctAnswers": [0]
+    },
+    {
+      "id": 6,
+      "question": "Как изменить состояние компонента React?",
+      "answers": [
+        "using setState() method",
+        "using state variable directly",
+        "using props",
+        "using refs"
+      ],
+      "correctAnswers": [0]
+    },
+    {
+      "id": 7,
+      "question": "Как передать данные от дочернего компонента к родительскому в React?",
+      "answers": ["using props", "using state", "using refs", "using context"],
+      "correctAnswers": [0]
+    },
+    {
+      "id": 8,
+      "question": "Как использовать цикл for в JSX?",
+      "answers": [
+        "using for keyword",
+        "using while keyword",
+        "using do-while keyword",
+        "using forEach method"
+      ],
+      "correctAnswers": [0]
+    },
+    {
+      "id": 9,
+      "question": "Как условно отображать элементы в JSX?",
+      "answers": [
+        "using if statement",
+        "using switch statement",
+        "using ternary operator",
+        "using all of the above"
+      ],
+      "correctAnswers": [0, 2, 3]
+    },
+    {
+      "id": 10,
+      "question": "Как импортировать модуль в JavaScript?",
+      "answers": [
+        "using import statement",
+        "using require() function",
+        "using include() directive",
+        "using link() tag"
+      ],
+      "correctAnswers": [0]
+    },
+    {
+      "id": 11,
+      "question": "Как добавить обработчик события к элементу в React?",
+      "answers": [
+        "using onClick prop",
+        "using onMouseOver prop",
+        "using onChange prop",
+        "using all of the above"
+      ],
+      "correctAnswers": [0, 1, 2]
+    }
+  ]
+}
