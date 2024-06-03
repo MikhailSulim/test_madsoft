@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/test_madsoft/static/css/main.5de2c532.css",
-    "main.js": "/test_madsoft/static/js/main.9f589443.js",
+    "main.js": "/test_madsoft/static/js/main.001d5629.js",
     "static/js/453.16b57929.chunk.js": "/test_madsoft/static/js/453.16b57929.chunk.js",
     "index.html": "/test_madsoft/index.html",
     "main.5de2c532.css.map": "/test_madsoft/static/css/main.5de2c532.css.map",
-    "main.9f589443.js.map": "/test_madsoft/static/js/main.9f589443.js.map",
+    "main.001d5629.js.map": "/test_madsoft/static/js/main.001d5629.js.map",
     "453.16b57929.chunk.js.map": "/test_madsoft/static/js/453.16b57929.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5de2c532.css",
-    "static/js/main.9f589443.js"
+    "static/js/main.001d5629.js"
   ]
 }
