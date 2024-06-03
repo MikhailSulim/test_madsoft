@@ -22,7 +22,11 @@ const AnswerItem: React.FC<IAnswerItemProps> = ({
         onChange={onChange}
       />
       <label htmlFor={id.toString()}>
-        {answer.length > 100 ? isFullAnswer ? answer : `${answer.slice(0, 100)} ...` : answer}{' '}
+        {answer.length > 100
+          ? isFullAnswer
+            ? answer
+            : `${answer.slice(0, 100)} ...`
+          : answer}{' '}
       </label>
       {answer.length > 100 && (
         <button onClick={() => setIsFullAnswer(!isFullAnswer)}>
