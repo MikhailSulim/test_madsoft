@@ -1,5 +1,5 @@
 {
-  "testTime": 600,
+  "testTime": 100,
   "questions": [
     {
       "id": 1,
@@ -9,90 +9,101 @@
     },
     {
       "id": 2,
-      "question": "Какие способы объявления стрелочной функции в JavaScript существуют?",
+      "question": "Что отличает оператор == от оператора ===?",
       "answers": [
-        "(parameter) => { function body }",
-        "(parameter) => function body (parameter) => function body(parameter) => function body(parameter) => function body(parameter) => function body(parameter) => function body(parameter) => function body(parameter) => function body(parameter) => function body(parameter) => function body(parameter) => function body(parameter) => function body(parameter) => function body",
-        "(parameter) => { }",
-        "(parameter) => {} function body"
+        "Оператор == выполняет приведение типов перед сравнением, а оператор === не выполняет приведение типов и сравнивает значения без изменений типов.",
+        "Оператор == не выполняет приведение типов и сравнивает значения без изменений типов, а оператор === выполняет приведение типов перед сравнением. Неправильный ответ.",
+        "Оператор == выполняет приведение типов перед сравнением, а оператор === не выполняет приведение типов и сравнивает значения без изменений типов. Правильный ответ.",
+        "Оператор == не выполняет приведение типов и сравнивает значения без изменений типов, а оператор === выполняет приведение типов перед сравнением. Неправильный ответ."
       ],
-      "correctAnswers": [2, 3]
+      "correctAnswers": [0]
     },
+
     {
       "id": 3,
-      "question": "Что из перечисленного является JSX?",
+      "question": "Что отличает null от undefined?",
       "answers": [
-        " JavaScript XML", 
-        "JavaScript Extension",
-        "JavaScript Syntax",
-        "JavaScript Expression"
+        "null означает отсутствие значения, а undefined означает, что переменная не была объявлена. Правильный ответ.",
+        "null означает, что переменная не была объявлена, а undefined означает отсутствие значения. Неправильный ответ.",
+        "null означает отсутствие значения, а undefined означает, что переменная не была объявлена. Правильный ответ.",
+        "null означает, что переменная не была объявлена, а undefined означает отсутствие значения. Неправильный ответ."
       ],
-      "correctAnswers": [0, 1]
+      "correctAnswers": [0, 2]
     },
     {
       "id": 4,
-      "question": "Какие типы компонентов являются базовыми в React?",
-      "answers": ["Element", "Component", "App", "State"],
-      "correctAnswers": [1, 2]
+      "question": "Что служит целью функция map в JavaScript?",
+      "answers": [
+        "Функция map используется для фильтрации массива. Неправильный ответ.",
+        "Функция map используется для сортировки массива. Неправильный ответ.",
+        "Функция map используется для объединения массивов. Неправильный ответ.",
+        "Функция map используется для перебора элементов массива. Правильный ответ."
+      ],
+      "correctAnswers": [3]
     },
     {
       "id": 5,
       "question": "Какие способы вернуть значение из функции JavaScript?",
       "answers": [
-        "using return keyword",
-        "using break statement",
-        "using continue statement",
-        "using throw statement"
+        "Использовать ключевое слово return",
+        "Использовать ключевое слово break",
+        "Использовать ключевое слово continue",
+        "Использовать ключевое слово throw"
       ],
       "correctAnswers": [0]
     },
     {
       "id": 6,
-      "question": "Как изменить состояние компонента React?",
+      "question": "Для чего нужен хук useState в React?",
       "answers": [
-        "using setState() method",
-        "using state variable directly",
-        "using props",
-        "using refs"
+        "Хук useState используется для создания локальных переменных в функциональном компоненте. Правильный ответ.",
+        "Хук useState используется для создания глобальных переменных в функциональном компоненте. Неправильный ответ.",
+        "Хук useState используется для создания переменных в классовом компоненте. Неправильный ответ.",
+        "Хук useState используется для создания переменных в обычном JavaScript файле. Неправильный ответ."
       ],
       "correctAnswers": [0]
     },
     {
       "id": 7,
       "question": "Как передать данные от дочернего компонента к родительскому в React?",
-      "answers": ["using props", "using state", "using refs", "using context"],
+      "answers": [
+        "Использовать props",
+        "Использовать state",
+        "Использовать refs",
+        "Использовать context"
+      ],
       "correctAnswers": [0]
     },
     {
       "id": 8,
-      "question": "Как использовать цикл for в JSX?",
+      "question": "Для чего нужен хук useEffect в React?",
       "answers": [
-        "using for keyword",
-        "using while keyword",
-        "using do-while keyword",
-        "using forEach method"
+        "Хук useEffect используется для выполнения побочных эффектов после изменения состояния компонента. Неправильный ответ.",
+        "Хук useEffect используется для выполнения побочных эффектов после рендеринга компонента. Правильный ответ.",
+        "Хук useEffect используется для выполнения побочных эффектов синхронно после рендеринга компонента. Неправильный ответ.",
+        "Хук useEffect используется для выполнения побочных эффектов асинхронно после рендеринга компонента. Неправильный ответ."
       ],
-      "correctAnswers": [0]
+      "correctAnswers": [1]
     },
     {
       "id": 9,
-      "question": "Как условно отображать элементы в JSX?",
+      "question": "Для чего нужен Redux?",
       "answers": [
-        "using if statement",
-        "using switch statement",
-        "using ternary operator",
-        "using all of the above"
+        "Redux используется для управления состоянием приложения. Правильный ответ.",
+        "Redux используется для создания глобальных переменных в приложении. Неправильный ответ.",
+        "Redux используется для создания локальных переменных в приложении. Неправильный ответ.",
+        "Redux используется для передачи данных между компонентами в приложении. Неправильный ответ."
       ],
-      "correctAnswers": [0, 2, 3]
+      "correctAnswers": [0]
     },
     {
       "id": 10,
       "question": "Как импортировать модуль в JavaScript?",
       "answers": [
-        "using import statement",
-        "using require() function",
-        "using include() directive",
-        "using link() tag"
+        "Использовать import ",
+        "Использовать require() ",
+        "Использовать include() ",
+        "Использовать link() "
       ],
       "correctAnswers": [0]
     },
@@ -100,12 +111,12 @@
       "id": 11,
       "question": "Как добавить обработчик события к элементу в React?",
       "answers": [
-        "using onClick prop",
-        "using onMouseOver prop",
-        "using onChange prop",
-        "using all of the above"
+        "Использовать onClick ",
+        "Использовать onMouseOver ",
+        "Использовать onChange ",
+        "Использовать всё вышеперечисленные"
       ],
-      "correctAnswers": [0, 1, 2]
+      "correctAnswers": [0, 1, 2, 3]
     }
   ]
 }
